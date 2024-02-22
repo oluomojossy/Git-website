@@ -1,0 +1,12 @@
+.Divimg{
+    width: 25%;
+    height: 250px;
+    /* background: yellow; */
+
+}
+@media screen and (max-width:320px){
+    .Divimg{
+        width: 80%;
+        
+    }
+}

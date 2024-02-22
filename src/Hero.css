@@ -1,0 +1,168 @@
+.iconTdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    color: rgb(159, 123, 225);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    padding-top: 10px;
+    font-size: apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.ul span {
+    color: rgba(255,255,255,0.65);
+}
+
+.GitHub{
+    width: 60%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: blue; */
+    margin-left: 20%;
+    margin-top: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.pg{
+    Font-size: 48px;
+    Font-weight:300;
+    Line-height: 72px;
+    color:  rgb(255, 255, 255);
+}
+.pg2{
+    Font-size: 20px;
+    Font-weight: 300;
+    Line-height: 30px;
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+}
+
+.GitHub button{
+    width: 310px;
+    height: 50px;
+    Font-size: 20px;
+    Font-weight: 600;
+    Line-height: 20px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #150a27;
+    background-color: #8241f9;
+    border-radius: 7px;
+    margin-top: 5%;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+}
+
+.HubT{
+    width: 60%;
+    height: 150px;
+    /* background: gold; */
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Div1 h4{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    Font-size: 14px;
+    Font-weight: 600;
+    Line-height: 21px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+
+}
+.Div1 p{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.Div1 a{
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+Font-size: 14px;
+Font-weight: 400;
+Line-height: 21px;
+color: rgb(159, 123, 225);
+text-decoration: none;
+}
+
+.Div1 a:hover{
+    text-decoration: underline;
+}
+.pTag{
+    text-align: center;
+}
+.pTag a{
+    color: rgb(159, 123, 225);
+    text-decoration: none;
+}
+.pTag a:hover{
+    text-decoration: underline; 
+}
+.ImgScreen{
+    width: 70%;
+    height: 100vh;
+    margin-left: 15%;
+    margin-top: 7%;
+    /* background: yellow; */
+}
+.ImgScreen img{
+    width: 100%;
+    height: 100%;
+} 
+
+
+@media screen and (max-width:320px){
+    .GitHub{
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .pg{
+        /* color: blue; */
+        font-size: 28px;
+    }
+    .pg2{
+        font-size:16px ;
+    }
+    .GitHub button{
+        width: 210px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .HubT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+    }
+    .Div1 p{
+        margin-bottom: 20px;
+    }
+    .pTag{
+        margin-top: 40px;
+        padding: 20px;
+    }
+    .ImgScreen{
+        width: 90%;
+        margin: 5%;
+
+    }
+}
